@@ -74,3 +74,28 @@ body {
   outline:none !important;
   box-shadow: 3px 4px 4px 1px #fdc302 !important;
 }
+
+.contactPage {
+ background: linear-gradient(180deg, #FFFFFF 0%, #FEA800 100%);
+ margin: 8rem 15rem;
+ text-align: center;
+ padding: 6rem 13rem;
+ border-radius: 15px;
+}
+.contactTitle {
+  margin-bottom: 10rem;
+}
+
+.aboutPage {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FEA800 100%);
+  margin: 8rem 15rem;
+  text-align: center;
+  padding: 5rem 15rem;
+  border-radius: 15px;
+}
+.aboutTitle {
+  margin-bottom: 6rem;
+}
+.aboutTxt {
+  margin-bottom: 2rem;
+}
