@@ -99,3 +99,45 @@ body {
 .aboutTxt {
   margin-bottom: 2rem;
 }
+
+.errorPage {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FEA800 100%);
+  margin: 10rem 15rem;
+  text-align: center;
+  padding: 15rem 15rem;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.loginPage {
+  background: linear-gradient(132.68deg, #000F08 1.02%, #726E75 100%);
+box-shadow: 4px 4px 4px 2px #424242;
+border-radius: 17px;
+width: 680px;
+height: 660px;
+margin: 5rem 40rem;
+text-align: center;
+padding: 5rem 8rem;
+gap: 4rem;
+}
+
+.label {
+  font-size: 25px;
+  color: white;
+}
+
+.loginTitle {
+  background: linear-gradient(180deg, #D9D9D9 0%, #FFB627 60.42%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+margin-bottom: 4rem;
+}
+
+.passwordGroup {
+  margin: 2rem 0 4rem 0;
+}
+
+.emailGroup {
+  margin:0 0 4rem 0 ;
+}
