@@ -109,7 +109,7 @@ body {
   font-size: 30px;
 }
 
-.loginPage {
+.loginPage, .registerPage {
   background: linear-gradient(132.68deg, #000F08 1.02%, #726E75 100%);
 box-shadow: 4px 4px 4px 2px #424242;
 border-radius: 17px;
@@ -126,7 +126,7 @@ gap: 4rem;
   color: white;
 }
 
-.loginTitle {
+.loginTitle, .registerTitle {
   background: linear-gradient(180deg, #D9D9D9 0%, #FFB627 60.42%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -141,3 +141,4 @@ margin-bottom: 4rem;
 .emailGroup {
   margin:0 0 4rem 0 ;
 }
+
