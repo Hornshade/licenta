@@ -1,7 +1,7 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import CoolButton from "../components/CoolButton";
-
+import {useNavigate } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -17,7 +17,7 @@ const Login = () => {
           <Form.Label className="label">Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <CoolButton text={'Submit'} className='submitBtn'/>
+        <CoolButton text={'Submit'} className='submitBtn' pathname={"/"}/>
       </Form>
     </div>
   );
