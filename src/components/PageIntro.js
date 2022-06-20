@@ -7,7 +7,7 @@ const PageIntro = () => {
     <div className='pageIntro'>
         <img src={miere} className='imgIntro'></img>
         <div className='textIntro'>
-            <CoolButton />
+            <CoolButton  text={'Go shopping'}/>
             <h3>We are a family company from Romania producing apiculture products in a natural and bio-friendly environment.Our company does not use additives in our products and provide quality honey naturally made. We take pride in producing and delivering natural and delicious products to our customers at affordable prices.</h3>
         </div>
     </div>
